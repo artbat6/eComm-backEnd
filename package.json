@@ -1,0 +1,27 @@
+{
+  "name": "myecommbackend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "seed": "node seeds/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/artbat6/myEcommBackEnd.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/artbat6/myEcommBackEnd/issues"
+  },
+  "homepage": "https://github.com/artbat6/myEcommBackEnd#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.6.4"
+  }
+}
